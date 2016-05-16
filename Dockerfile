@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Justin Menga <justin.menga@yellow.co.nz>
+MAINTAINER Justin Menga <justin.menga@cloudhotspot.co>
 
 RUN echo "http://nl.alpinelinux.org/alpine/edge/main/" >> /etc/apk/repositories && \
     apk update && \
